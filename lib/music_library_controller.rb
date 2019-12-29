@@ -4,6 +4,7 @@ class MusicLibraryController
   end
 
   def call
+<<<<<<< HEAD
     input = ""
 
     while input != "exit"
@@ -89,4 +90,28 @@ class MusicLibraryController
 
     puts ("Playing #{song.name} by #{song.artist.name}") if song
   end
+=======
+    puts ("Welcome to your music library!")
+    puts("To list all of your songs, enter 'list songs'.")
+    puts("To list all of the artists in your library, enter 'list artists'.")
+    puts("To list all of the genres in your library, enter 'list genres'.")
+    puts("To list all of the songs by a particular artist, enter 'list artist'.")
+  end
+
+  def list_songs
+  end
+
+  def list_artists
+  end
+
+  def list_genres
+  end
+
+  def list_songs_by_genre
+  end
+
+  def play_song
+  end
+
+>>>>>>> 258f9b67ff0282f4738dc4c1046a6bc748cd2662
 end
